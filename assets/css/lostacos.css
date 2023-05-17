@@ -1,0 +1,260 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    caret-color: transparent;
+    
+}
+
+
+header {
+    background: #FBE3B7;
+}
+
+.caixa {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.nav_cabecalho ul {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_cabecalho li a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    /* line-height: 24px; */
+    /* border: 1px solid #EB339B; */
+    /* border-radius: 4px; */
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    color: #EA663F;
+
+}
+
+.nav_cabecalho a:hover {
+    font-weight: 600;
+    transition: 0.2s;
+    color: #DD4C21;
+}
+
+.nav_cabecalho li a img {
+    width: 30px;
+}
+
+.container-principal {
+    background-color: #FBE3B7;
+    /* height: 100vh; */
+    /* flex-grow: 1; */
+    padding: 40px 0px;
+}
+
+.caixa-principal {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.text-principal p {
+    font-family: 'Quicksand', sans-serif;
+    color: #EA663F;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.text-principal a {
+    margin-top: 20px;
+    padding: 16px 24px;
+    background:#EA663F;
+    color: #FBE3B7;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 24px;
+    font-family: 'Quicksand', sans-serif;
+    width: max-content;
+}
+
+.text-principal a:hover{
+    background-color: #DD4C21;
+    transition: 0.3s;
+}
+
+.imagem-principal img {
+    width: 500px;
+}
+
+.container-historia {
+    background-color: #106B64;
+    padding: 62px 0px;
+}
+
+.caixa-tacos {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imagem-tacos img{
+    width: 500px;
+}
+
+.text-tacos {
+    width: 550px;
+}
+
+.text-tacos p {
+    font-family: 'Quicksand', sans-serif;
+    color: #FBE3B7;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text-tacos h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #FBE3B7;
+    font-size: 32px;
+    line-height: 20px;
+}
+
+.container-clientes {
+    background-color: #FBE3B7;
+    padding: 40px 0px;
+}
+
+.caixa-clientes {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-clientes{
+    width: 550px;
+}
+
+.text-clientes h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #EA663F;
+    font-size: 32px;
+    line-height: 20px;
+}
+
+.text-clientes p {
+    font-family: 'Quicksand', sans-serif;
+    color: #EA663F;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.imagem-mexico img {
+    width: 500px;
+}
+
+.container-mapa {
+    background-color: #ECA07E;
+    padding: 62px 0px;
+}
+
+.caixa-mapa {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-mapa h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #FBE3B7;
+    font-size: 32px;
+}
+
+.mapa-link{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-rodape{
+    background-color: #ECA07E;
+    padding: 20px 0px;
+}
+
+.caixa-rodape{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons-rodape {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+}
+.icons-rodape a img{
+    width: 30px;
+}
+
+.icons-rodape img{
+    width: max-content;
+}
+
+.text-rodape{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: #FBE3B7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.text-rodape p{
+    padding-top: 10px;
+}
+.links-rodape a{
+    text-decoration: none;
+    color: #FBE3B7;
+}
+
+
+/* 
+
+@media screen and (max-width: 480px) {
+
+} */
